@@ -1,0 +1,10 @@
+TO Acitvate the pyenv virtual environment in 3.9.6
+judsonbelmont@Judsons-Air python-course % python -m venv .venv
+judsonbelmont@Judsons-Air python-course % source .venv/bin/activate
+(.venv) judsonbelmont@Judsons-Air python-course % 
+
+
+ "python.terminal.activateEnvironment": true
+This is entered in the  ()settings.json file
+
+Dave Gray tutorial

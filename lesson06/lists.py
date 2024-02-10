@@ -23,84 +23,84 @@ print(users)
 users += ['Jason']
 print(users)
 
-users.extend(['Robert', 'Jimmy'])
-print(users)
-
-# users.extend(data)
+# users.extend(['Robert', 'Jimmy'])
 # print(users)
 
-users.insert(0, 'Bob')
-print(users)
+# # users.extend(data)
+# # print(users)
 
-users[2:2] = ['Eddie', 'Alex']
-print(users)
+# users.insert(0, 'Bob')
+# print(users)
 
-users[1:3] = ['Robert', 'JPJ']
-print(users)
+# users[2:2] = ['Eddie', 'Alex']
+# print(users)
 
-users.remove('Bob')
-print(users)
+# users[1:3] = ['Robert', 'JPJ']
+# print(users)
 
-print(users.pop())
-print(users)
+# users.remove('Bob')
+# print(users)
 
-del users[0]
-print(users)
+# print(users.pop())
+# print(users)
 
-# del data
-data.clear()
-print(data)
+# del users[0]
+# print(users)
 
-users[1:2] = ['dave']
-users.sort()
-print(users)
+# # del data
+# data.clear()
+# print(data)
 
-users.sort(key=str.lower)
-print(users)
+# users[1:2] = ['dave']
+# users.sort()
+# print(users)
 
-nums = [4, 42, 78, 1, 5]
-nums.reverse()
-print(nums)
+# users.sort(key=str.lower)
+# print(users)
 
-# nums.sort(reverse=True)
+# nums = [4, 42, 78, 1, 5]
+# nums.reverse()
 # print(nums)
 
-print(sorted(nums, reverse=True))
-print(nums)
+# # nums.sort(reverse=True)
+# # print(nums)
 
-numscopy = nums.copy()
-mynums = list(nums)
-mycopy = nums[:]
+# print(sorted(nums, reverse=True))
+# print(nums)
 
-print(numscopy)
-print(mynums)
-mycopy.sort()
-print(mycopy)
-print(nums)
+# numscopy = nums.copy()
+# mynums = list(nums)
+# mycopy = nums[:]
 
-print(type(nums))
+# print(numscopy)
+# print(mynums)
+# mycopy.sort()
+# print(mycopy)
+# print(nums)
 
-mylist = list([1, "Neil", True])
-print(mylist)
+# print(type(nums))
 
-# Tuples
+# mylist = list([1, "Neil", True])
+# print(mylist)
 
-mytuple = tuple(('Dave', 42, True))
+# # Tuples
 
-anothertuple = (1, 4, 2, 8, 2, 2)
+# mytuple = tuple(('Dave', 42, True))
 
-print(mytuple)
-print(type(mytuple))
-print(type(anothertuple))
+# anothertuple = (1, 4, 2, 8, 2, 2)
 
-newlist = list(mytuple)
-newlist.append('Neil')
-newtuple = tuple(newlist)
-print(newtuple)
+# print(mytuple)
+# print(type(mytuple))
+# print(type(anothertuple))
 
-(one, *two, hey) = anothertuple
-print(one)
-print(two)
-print(hey)
+# newlist = list(mytuple)
+# newlist.append('Neil')
+# newtuple = tuple(newlist)
+# print(newtuple)
 
-print(anothertuple.count(2))
+# (one, *two, hey) = anothertuple
+# print(one)
+# print(two)
+# print(hey)
+
+# print(anothertuple.count(2))

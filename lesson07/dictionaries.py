@@ -148,3 +148,46 @@ two = {2, 3, 4}
 
 one.symmetric_difference_update(two)
 print(one)
+
+# SETS
+nums ={1,2,3,4}
+
+nums2 = set((1,2,3,4))
+print(nums)
+print(nums2)
+print(len(nums))
+# No duplicates allowed
+
+nums ={1,1,1,1,1,1,True}
+print(nums)
+nums2 ={False, 0,0}
+print(nums2)
+# chenck if a value is in a set
+# but cannot refer to an element with an index
+nums2.add(8)
+print(nums2)  # {False, 8}
+moreNums = {5,6,7,8,9,10}
+nums2.update(moreNums)
+print(nums2)
+# you can update with lists, tuples and dictiionaries as well.
+# merge two sets to create a new set
+one = {1,2,3}
+two ={4,5,6}
+mynewset = one.union(two)
+print(mynewset)     #   {1, 2, 3, 4, 5, 6}
+one = {1,2,3}
+two ={2,3,4}
+mynewset = one.union(two)
+print(mynewset)     #   {1, 2, 3, 4}
+
+one.intersection_update(two)
+print(one)      #   {2, 3}
+one.intersection(two)
+print(one)      #   {2, 3}
+one.symmetric_difference(two)
+print(one)      #   {2, 3}
+
+
+
+
+
