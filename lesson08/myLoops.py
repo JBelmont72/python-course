@@ -26,4 +26,16 @@ for x in names:
 for x in names:
     if x =='Sara':
         continue
-    print(x)  
+    print(x)
+# names = ['Dave','Sara','John']    
+# actions = ['codes','eats','sleep']
+# for name in names:
+#     for action in actions:
+#         print(f'{name} always {action}.')
+names = ['Dave','Sara','John']    
+actions = ['codes','eats','sleep']
+for action in actions:
+    for name in names:
+        print(f'{name} always {action}.')
+        
+      

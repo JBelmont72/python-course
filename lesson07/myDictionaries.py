@@ -102,3 +102,8 @@ band = {
     
 }
 print(band)
+# string substitution with .replace medthod
+string = "Hello World"
+new_string = string.replace("Hello", "Good Bye")
+ 
+print(new_string)
